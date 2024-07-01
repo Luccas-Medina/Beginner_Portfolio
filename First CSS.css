@@ -1,0 +1,9 @@
+.form {
+    background-color: rgb(188, 189, 188);
+    padding: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 2.0em;
+    border-style: solid;
+    border-color: black;
+}
