@@ -4,20 +4,36 @@
     <link rel="stylesheet" href="First CSS.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário HTML</title>
+    <title>First HTML form</title>
 </head>
 <body>
+    <nav class="navbar">
+        <a href="#just">Casually using this</a>
+        <a href="#an">HTML file</a>
+        <a href="#example">As an example</a>
+    </nav> <br>
+    <h1 class="center">Introduction</h1>
+    <p>
+       <strong>Hello, my name is Luccas Medina. I'll use this HTML file to do some tests and improve my skills!</strong> 
+    </p>
     <form class="form" action="/submit-form" method="post" >
+        <legend class="center">Random Form</legend>
         <label for="nome">Name:</label> 
-        <input type="text" minlength="3" name="nome" required /> <br>
+        <input type="text" minlength="3" name="nome" required />
         <label for="email">E-mail:</label> 
-        <input type="email" name="email" required /> <br>
+        <input type="email" name="email" required /> 
         <label for="phone">Phone Number:</label> 
-        <input type="tel" name="phone" required /> <br>
+        <input type="tel" name="phone" required />
         <label for="birth">Birth Date:</label> 
-        <input type="date" name="birth" required/> <br>
+        <input type="date" name="birth" required/> 
         <input type="submit" value="Submit">
     </form>
+    <p>
+        Random stuff
+    </p>
+    <footer>
+        <p>&copy; 2024 Luccas Medina. All rights reserved.</p>
+    </footer>
 </body>
 </html>
 
